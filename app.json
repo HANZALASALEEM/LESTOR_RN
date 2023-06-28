@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.LESTOR_RN"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9975c56d-dc43-4574-976d-4983b1ed5446"
+      }
+    },
+    "owner": "hanzalasaleem",
+    "plugins": [
+      "expo-facebook"
+    ]
   }
 }
